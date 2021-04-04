@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Poppins;
+    background: #E6F2FF;
+}
+
+.Page_Home-Container {
+    max-width: 1300px;
+    display:flex;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.Page_Home-Container .Page_Home-LeftWrapper {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    background: #FFF;
+}
+
+.Page_Home-LeftWrapper .LeftWrapper_Logo {
+    width: 300px;
+    height: 160px;
+    align-self: center;
+}
+
+
+.Page_Home-LeftWrapper .LeftWrapper_Logo img { 
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.LeftWrapper_Form {
+    margin-top: 4rem;
+}
+
+.LeftWrapper_Form form {
+    max-width: 352px;
+}
+
+.LeftWrapper_Form h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.LeftWrapper_Form .Form_Label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.LeftWrapper_Form p {
+    margin: 5px 0;
+    color: #707070;
+    font-weight: 500;
+}
+
+.LeftWrapper_Form input {
+    padding: 8px 16px;
+    border: 2px solid rgba(0,0,0,.1);
+}
+
+.LeftWrapper_Form .ForgotPassword {
+    display: block;
+    color: #707070;
+    font-size: 14px;
+}
+
+.LeftWrapper_Form .ForgotPassword:hover {
+    color: #444;
+}
+
+.LeftWrapper_Form button {
+    margin-top: 2rem;
+    width: 100%;
+    height: 40px;
+    background: #1F1F70;
+    border: #1F1F70;
+    border-radius: 4px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.LeftWrapper_Form button:hover {
+    background: #2b2b8a;
+}
+
+.LeftWrapper_Form button span {
+    font-size: 18px;
+}
+
+.LeftWrapper_Form button i {
+    font-size: 26px;
+}
+
+.LeftWrapper_Form .text-divisor {
+ width: 100%;
+ height: .5px;
+ background: rgba(0,0,0,.1);
+ margin: 2rem 0 1rem;
+}
+
+.LeftWrapper_Form .NewUser {
+text-decoration: none;
+color: #707070;
+font-size: 16px;
+}
+
+.LeftWrapper_Form .NewUser:hover {
+    text-decoration: underline;
+    color: #444;
+}
+
+.Page_Home-Container .Page_Home-RightWrapper {
+    position: relative;
+    background: #E6F2FF;
+    width: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RightWrapper_News {
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+
+.RightWrapper_News h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444444;
+    margin: 0;
+}
+
+.RightWrapper_News h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444444;
+    margin: 0;
+}
+
+.RightWrapper_News .RightWrapper_News-Btn {
+    padding: 2px 12px;
+    border: 2px solid #707070;
+    text-decoration: none;
+    color: #333;
+    margin-top: 5px;
+    display: block;
+    width: 90px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background .3s;
+}
+
+.RightWrapper_News .RightWrapper_News-Btn:hover {
+    background: #707070;
+    color: #FFF;
+}
+
+.RightWrapper_News p {
+    color: #000000;
+    font-size: 12px;
+}
+
+.Page_Home-RightWrapper .RightWrapper_Image {
+    width: 530px;
+    height: 550px;
+    margin-left: 3rem;
+}
+
+.Page_Home-RightWrapper .RightWrapper_Image img {
+    width: 100%;
+}
+
