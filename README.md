@@ -4,8 +4,8 @@
 03/04 - Envio inicial do projeto.
 
 ### 📄 Sobre o projeto
-Projeto fullstack que irei desenvolver para estudos do framework Laravel.
-Trata-se de um projeto SaaS para administração de restaurantes.
+Projeto fullstack que irei desenvolver para estudos do framework Laravel. </br>
+Trata-se de um projeto SaaS para administração de restaurantes criado totalmente do zero e idealizado por mim.
 
 Atualmente estou criando as APIs em PHP/Laravel.
 
