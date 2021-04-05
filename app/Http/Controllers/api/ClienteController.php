@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\api;
 
 use App\Http\Controllers\Controller;
+use App\Models\Cliente;
 use Illuminate\Http\Request;
 
 class ClienteController extends Controller
@@ -14,7 +15,9 @@ class ClienteController extends Controller
      */
     public function index()
     {
-        //
+        $cliente = Cliente::all();
+
+        return $cliente;
     }
 
     /**
@@ -25,7 +28,11 @@ class ClienteController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $cliente = $request->all();
+        
+        $newCliente = Cliente::create($cliente);
+
+        return $newCliente;
     }
 
     /**

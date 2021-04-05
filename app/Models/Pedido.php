@@ -9,4 +9,8 @@ class Pedido extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'codigo',
+        'valor_total'
+    ];
 }
