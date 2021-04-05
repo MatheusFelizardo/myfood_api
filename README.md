@@ -1,7 +1,7 @@
 # myFood API
 
 ### 🔥 Updates   
-04/04 - Adicionando a API de Receitas Alimentos, que faz a relação entre a receita e os alimentos dela.
+04/04 - Adicionando a API de Receitas Alimentos, que faz a relação entre a receita e os alimentos dela.</br>
 03/04 - Envio inicial do projeto.
 
 ### 📄 Sobre o projeto
