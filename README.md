@@ -20,7 +20,7 @@ Atualmente estou criando as APIs em PHP/Laravel.
 - API para registro, exibição, edição e exclusão de receitas
 - API para registro, exibição, edição e exclusão de alimentos
 - API para registro, exibição, edição e exclusão dos alimentos de cada receita
-- API para registro, exibição, edição e exclusão dos alimentos de clientes
+- API para registro, exibição, edição e exclusão de clientes
 
 <!-- - Reset de senha com envio de token ao email -->
 
