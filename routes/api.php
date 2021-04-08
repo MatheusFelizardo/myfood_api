@@ -21,5 +21,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::apiResource('alimento', 'App\Http\Controllers\api\AlimentoController');
 Route::apiResource('receita', 'App\Http\Controllers\api\ReceitaController');
 Route::apiResource('receitas/{id}/alimentos', 'App\Http\Controllers\api\ReceitasAlimentosController');
-Route::apiResource('clientes', 'App\Http\Controllers\api\PedidoController');
+Route::apiResource('clientes', 'App\Http\Controllers\api\ClienteController');
 Route::apiResource('pedidos', 'App\Http\Controllers\api\PedidoController');
