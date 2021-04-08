@@ -27,12 +27,13 @@ class ClienteController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
+    {   
         $cliente = $request->all();
         
         $newCliente = Cliente::create($cliente);
 
         return $newCliente;
+
     }
 
     /**
@@ -43,7 +44,13 @@ class ClienteController extends Controller
      */
     public function show($id)
     {
-        //
+        $cliente = Cliente::find($id);
+
+        if($cliente) {
+            return $cliente;
+        }
+
+        return response()->json("Cliente não encontrado.");
     }
 
     /**
@@ -62,7 +69,13 @@ class ClienteController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $data = $request->all();
+
+        $cliente = Cliente::find($id);
+
+        $cliente->update($data);
+
+        return $cliente;
     }
 
     /**
@@ -73,6 +86,14 @@ class ClienteController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $cliente = Cliente::find($id);
+
+        if (isset($cliente)) {
+            Cliente::destroy($id);
+
+            return response()->json("Cliente excluído com sucesso.");
+        }
+        
+        return response()->json("Cliente não encontrado.");
     }
 }
