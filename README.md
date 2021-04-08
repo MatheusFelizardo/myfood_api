@@ -1,6 +1,7 @@
 # myFood API
 
 ### 🔥 Updates   
+07/04 - Adicionando a API de clientes.</br>
 04/04 - Adicionando a API de Receitas Alimentos, que faz a relação entre a receita e os alimentos dela.</br>
 03/04 - Envio inicial do projeto.
 
@@ -17,8 +18,9 @@ Atualmente estou criando as APIs em PHP/Laravel.
 
 ### ⚙ Funções até o momento:
 - API para registro, exibição, edição e exclusão de receitas
-- API para registro e exibição de alimentos
+- API para registro, exibição, edição e exclusão de alimentos
 - API para registro, exibição, edição e exclusão dos alimentos de cada receita
+- API para registro, exibição, edição e exclusão dos alimentos de clientes
 
 <!-- - Reset de senha com envio de token ao email -->
 
