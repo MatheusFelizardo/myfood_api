@@ -27,7 +27,8 @@ class ClienteController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {   
+{       
+        // Configurar a validação do email unico com o request->validate() + accept no header
         $cliente = $request->all();
         
         $newCliente = Cliente::create($cliente);
@@ -50,7 +51,10 @@ class ClienteController extends Controller
             return $cliente;
         }
 
-        return response()->json("Cliente não encontrado.");
+        return response()->json(["error"=> "Cliente não encontrado."], 404);
+        
+        // return ["msg"=> "Cliente não encontrado."];
+        // return response()->json(["msg"=> "Cliente não encontrado."], 404)
     }
 
     /**
