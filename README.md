@@ -1,6 +1,7 @@
 # myFood API
 
 ### 🔥 Updates   
+08/04 - Iniciando a criação da tabela de alimentos por pedidos.</br>
 07/04 - Adicionando a API de clientes.</br>
 04/04 - Adicionando a API de Receitas Alimentos, que faz a relação entre a receita e os alimentos dela.</br>
 03/04 - Envio inicial do projeto.
